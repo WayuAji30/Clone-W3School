@@ -95,6 +95,7 @@
 nav.sticky {
   position: relative;
   transition: top 0s;
+  z-index: 100;
 }
 
 nav.sticky.sticky-active {
