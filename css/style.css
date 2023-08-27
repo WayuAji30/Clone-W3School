@@ -29,6 +29,8 @@
 .navright {
   margin-left: auto;
   margin-right: 20px;
+  right: 0; 
+  justify-content: end
 }
 
 .topnav .link a:hover {
