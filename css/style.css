@@ -355,6 +355,12 @@ input:focus {
   padding-top: 20px;
 }
 
+.h2-4 {
+  font-size: 30px;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
 .h5-card {
   font-weight: 600;
   padding-top: 10px;
