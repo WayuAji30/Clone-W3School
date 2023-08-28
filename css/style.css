@@ -29,8 +29,8 @@
 .navright {
   margin-left: auto;
   margin-right: 20px;
-  right: 0; 
-  justify-content: end
+  right: 0;
+  justify-content: end;
 }
 
 .topnav .link a:hover {
@@ -581,6 +581,30 @@ input:focus {
   text-align: center;
 }
 
+.flex-rounded {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.flex-rounded input {
+  margin-left: 150px;
+  margin-top: -5px;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  height: 15px;
+  width: 550px;
+}
+
+.rounded {
+  margin-top: 0px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
 #h1 {
   font-size: 65px;
   font-weight: 700;
@@ -594,15 +618,15 @@ input:focus {
 
 .card-code {
   cursor: pointer;
-  width: 900px;
-  height: 350px;
+  width: 942px;
+  height: 40px;
   background-color: #f3ecea;
   margin-top: 30px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
   padding: 0 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: start;
 }
 
 .btn-green {
@@ -618,7 +642,7 @@ input:focus {
   display: block;
   width: fit-content;
   margin: auto;
-  margin-left: 309px;
+  margin-left: 288px;
 }
 
 .btn-green:hover {
@@ -638,7 +662,7 @@ input:focus {
   display: block;
   width: fit-content;
   margin: auto;
-  margin-left: 309px;
+  margin-left: 288px;
 }
 
 .btn-yellow:hover {
@@ -652,7 +676,11 @@ input:focus {
   color: white;
   font-weight: 400;
   font-size: 25px;
-  margin-top: 0;
+  margin-top: -25px;
+}
+
+.gif-spaces {
+  margin-top: 20px;
 }
 
 .link-w3school {
@@ -1006,6 +1034,10 @@ input:focus {
   font-size: 52px;
 }
 
+.flex-kickstart {
+  display: flex;
+}
+
 .button-kickstart {
   background-color: #04aa6d;
   width: 200px;
@@ -1056,6 +1088,19 @@ input:focus {
   width: 40px;
   height: 80px;
   background-color: #282a35;
+}
+
+.card-code-how {
+  cursor: pointer;
+  width: 942px;
+  height: 400px;
+  background-color: #f3ecea;
+  margin-top: 30px;
+  border-radius: 5px 5px 0px 0px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: left;
+  align-items: start;
 }
 
 .button-how-to-section {
@@ -1202,3 +1247,10 @@ input:focus {
   margin-top: 20px;
 }
 /* Akhir Footer */
+
+/* Responsive */
+@media screen and (max-width: 1500px) {
+  .hide {
+    display: none;
+  }
+}
