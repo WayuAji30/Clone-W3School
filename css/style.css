@@ -1092,15 +1092,42 @@ input:focus {
 
 .card-code-how {
   cursor: pointer;
-  width: 942px;
-  height: 400px;
-  background-color: #f3ecea;
+  width: 1000px;
+  height: 50px;
+  background-color: #e3e6e8;
   margin-top: 30px;
   border-radius: 5px 5px 0px 0px;
   padding: 0 20px;
-  display: flex;
   justify-content: left;
   align-items: start;
+}
+
+.card-code-how img {
+  margin-top: 40px;
+}
+
+.card-code-how2 {
+  width: 1000px;
+  height: 70px;
+  background-color: #e3e6e8;
+  border-radius: 0px 0px 5px 5px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-how {
+  display: flex;
+  gap: 10px;
+}
+
+.rounded-how {
+  margin-top: 0px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #bbb;
 }
 
 .button-how-to-section {
