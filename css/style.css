@@ -41,6 +41,7 @@
 #boot-spaces {
   padding: 9px 18px;
   margin-top: 5px;
+  margin-right: 5px;
 }
 
 #boot-spaces:hover {
